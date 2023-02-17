@@ -15,5 +15,13 @@
     "url": "https://github.com/Moiz1524/chat-gpt-enhanced/issues"
   },
   "homepage": "https://github.com/Moiz1524/chat-gpt-enhanced#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "openai": "^3.1.0"
+  }
 }
