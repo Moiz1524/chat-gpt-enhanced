@@ -11,7 +11,7 @@ function App() {
 
   const [input, setInput] = useState("")
   const [models, setModels] = useState([])
-  const [currentModel, setCurrentModel] = useState("ada")
+  const [currentModel, setCurrentModel] = useState("babbage")
   const [chatLog, setChatLog] = useState([])
 
   function clearChat() {
@@ -65,7 +65,7 @@ function App() {
         </div>
         <div className="chat-input-holder">
           <form onSubmit={handleSubmit}>
-            <input rows = "1" value={input} onChange={(e) => setInput(e.target.value)} className="chat-input-textarea">
+            <input rows = "1" value={input} onChange={(e) => setInput(e.target.value)} className="chat-input-textarea" placeholder="How can I assist you today?">
             </input>
           </form>
         </div>
