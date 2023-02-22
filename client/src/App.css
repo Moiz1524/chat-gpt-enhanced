@@ -103,8 +103,14 @@
   height: 40px;
 }
 
-.message {
-
+.models {
+  margin-top: 28px;
+  margin-left: -18px;
+  position: absolute;
+  top: 50px; /* adjust as needed */
+  left: 0;
+  width: 100%;
+  max-width: 300px; /* adjust as needed */
 }
 
 .App-header {

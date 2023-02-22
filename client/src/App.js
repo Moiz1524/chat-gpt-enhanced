@@ -12,13 +12,7 @@ function App() {
   const [input, setInput] = useState("")
   const [models, setModels] = useState([])
   const [currentModel, setCurrentModel] = useState("ada")
-  const [chatLog, setChatLog] = useState([{
-    user: "gpt",
-    message: "How can I help you today?"
-  }, {
-    user: "me",
-    message: "I want to use ChatGPT today!"
-  }])
+  const [chatLog, setChatLog] = useState([])
 
   function clearChat() {
     setChatLog([])
