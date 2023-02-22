@@ -113,6 +113,23 @@
   max-width: 300px; /* adjust as needed */
 }
 
+select.modelSelection {
+  width: 80%;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #555;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #eee;
+  appearance: none;
+  outline: none;
+}
+
+select.modelSelection:focus {
+  box-shadow: 0 0 0 3px #ddd;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

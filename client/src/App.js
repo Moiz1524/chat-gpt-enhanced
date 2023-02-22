@@ -55,7 +55,7 @@ function App() {
         </div>
       </aside>
       <div className="models">
-        <select onChange={(e) => setCurrentModel(e.target.value)}>
+        <select className="modelSelection" onChange={(e) => setCurrentModel(e.target.value)}>
           {models.map((model, index) => <option key={model.id} value={model.id}>{model.id}</option>)}
         </select>
       </div>
